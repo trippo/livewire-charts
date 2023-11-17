@@ -73,6 +73,11 @@ class PieChartModel extends BaseChartModel
         return $this;
     }
 
+    public function getData()
+    {
+        return $this->data;
+    }
+
     public function toArray()
     {
         return array_merge(parent::toArray(), [
